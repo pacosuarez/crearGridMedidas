@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-contenedor {
+    display: grid; /* activar la cuadrícula gid */
+    grid-template-columns: auto auto auto auto; /* Medida auto */
+    background-color: #2196F3;
+    outline: solid 2px red;
+    padding: 10px;
+}
+
+.grid-contenedor > div {
+    background-color: gray;
+    border: 3px solid cyan;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    outline: solid 2px blue;
+    color: white;
+}
