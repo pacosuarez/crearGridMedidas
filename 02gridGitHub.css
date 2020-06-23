@@ -4,7 +4,10 @@
 
 .grid-contenedor {
     display: grid; /* activar la cuadrícula gid */
-    grid-template-columns: auto auto auto auto; /* Medida auto */
+    grid-template-columns: 200px 150px  300px 400px;
+    grid-template-rows: 75px 
+                        200px 
+                        100px; /* Medida auto */
     background-color: #2196F3;
     outline: solid 2px red;
     padding: 10px;
